@@ -1,0 +1,1 @@
+Para verifar el correo electronico haz<a href="{{route('sendEmailDone', ['email' => $user->email, 'verifyToken' => $user->verifyToken])}}"> click aqui</a>
